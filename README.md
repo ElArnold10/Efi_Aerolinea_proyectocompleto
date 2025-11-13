@@ -239,9 +239,9 @@ GET → /api/vuelos/
 
  11. Base de Datos
 
-✔ Se usa SQLite por defecto
-✔ Migraciones incluidas
-✔ Tablas generadas automáticamente por Django
+Se usa SQLite por defecto
+Migraciones incluidas
+Tablas generadas automáticamente por Django
 
  12. Mejoras implementadas (resumen técnico)
 
