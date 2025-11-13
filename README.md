@@ -1,4 +1,4 @@
-✅ README — Sistema de Gestión de Aerolínea (EFI Final)
+ README — Sistema de Gestión de Aerolínea (EFI Final)
 
 Autores: 
 Mauricio Torres
@@ -9,7 +9,7 @@ Materia: ingenieria de software
 
 Año: 2025
 
-✈️ 1. Descripción del Proyecto
+ 1. Descripción del Proyecto
 
 Este proyecto implementa un sistema completo de gestión para una aerolínea, que incluye administración de:
 
@@ -47,7 +47,7 @@ SQLite como base de datos por defecto
 
 Incluye tanto la parte web tradicional (templates / views) como la API REST completa.
 
-⚙️ 2. Instalación y Ejecución del Proyecto
+2. Instalación y Ejecución del Proyecto
 2.1. Clonar el repositorio
 git clone https://github.com/MauriTorres9/Efi_aerolinea
 cd Efi_aerolineas
@@ -92,7 +92,7 @@ print("Usuario actualizado a admin correctamente")
 2.6. Ejecutar el servidor
 python manage.py runserver
 
-🗂️ 3. Estructura principal del proyecto
+ 3. Estructura principal del proyecto
 efi2025/
 ├── aerolineas/
 │   ├── api/
@@ -120,7 +120,7 @@ efi2025/
 │
 └── manage.py
 
-🔐 4. Autenticación (JWT)
+ 4. Autenticación (JWT)
 Login para obtener un token:
 POST /api/token/
 
@@ -135,7 +135,7 @@ Renovar token:
 POST /api/token/refresh/
 
 
-📘 5. Documentación de la API
+ 5. Documentación de la API
 
 Swagger UI:
 /api/docs/
@@ -146,7 +146,7 @@ Redoc:
 Schema OpenAPI:
 /api/schema/
 
-🌐 6. URLs Principales del Proyecto
+6. URLs Principales del Proyecto
 6.1. URLs globales (efi2025/urls.py)
 Ruta	Descripción
 /admin/	Panel admin Django
@@ -159,7 +159,7 @@ Ruta	Descripción
 /api/redoc/	Redoc
 /api/schema/	Schema OpenAPI
 
-🧩 7. Endpoints de la API (DRF)
+7. Endpoints de la API (DRF)
 
 Archivo: aerolineas/api/urls.py
 
@@ -199,7 +199,7 @@ Boletos
 /api/boletos/
 /api/boletos/<id>/
 
-📊 8. Endpoints de Reportes
+ 8. Endpoints de Reportes
 Pasajeros por vuelo
 GET /api/reportes/pasajeros/<vuelo_id>/
 
@@ -209,7 +209,7 @@ GET /api/reportes/reservas/<pasajero_id>/
 Disponibilidad de asientos en un vuelo
 GET /api/vuelos/<vuelo_pk>/asientos/disponibilidad/
 
-🖥️ 9. URLs del sitio web (templates)
+9. URLs del sitio web (templates)
 
 Archivo: home/urls.py
 
@@ -219,7 +219,7 @@ Ruta	Descripción
 /register/	Registrar usuario
 /logout/	Cerrar sesión
 
-🧪 10. Cómo probar la API en Postman
+ 10. Cómo probar la API en Postman
 
 Iniciar servidor
 
@@ -237,13 +237,13 @@ Authorization: Bearer <tu_token>
 Ejemplo:
 GET → /api/vuelos/
 
-📦 11. Base de Datos
+ 11. Base de Datos
 
 ✔ Se usa SQLite por defecto
 ✔ Migraciones incluidas
 ✔ Tablas generadas automáticamente por Django
 
-🛠️ 12. Mejoras implementadas (resumen técnico)
+ 12. Mejoras implementadas (resumen técnico)
 
 API 100% RESTful con ViewSets + Routers
 
